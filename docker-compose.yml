@@ -33,7 +33,7 @@ services:
       Jwt__Audience: KorvoniUmedApp
       TelegramBot__Token: ${TELEGRAM_BOT_TOKEN:-}
       TelegramBot__WebhookUrl: ${TELEGRAM_WEBHOOK_URL:-}
-      Cors__Origins: ${CORS_ORIGINS:-http://localhost}
+      Cors__Origins: ${CORS_ORIGINS:-https://caravanofhope.tj}
     volumes:
       - uploads:/app/uploads
     ports:
@@ -60,10 +60,21 @@ services:
       - api
       - client
     volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/active.conf:/etc/nginx/conf.d/default.conf:ro
+      - certbot-www:/var/www/certbot:ro
+      - certbot-certs:/etc/letsencrypt:ro
     ports:
       - "80:80"
+      - "443:443"
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - certbot-www:/var/www/certbot
+      - certbot-certs:/etc/letsencrypt
 
 volumes:
   pgdata:
   uploads:
+  certbot-www:
+  certbot-certs:
