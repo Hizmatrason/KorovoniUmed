@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KorvoniUmed.API/KorvoniUmed.API.csproj" />
+    <Project Path="src/KorvoniUmed.Domain/KorvoniUmed.Domain.csproj" />
+    <Project Path="src/KorvoniUmed.Infrastructure/KorvoniUmed.Infrastructure.csproj" />
+  </Folder>
+</Solution>

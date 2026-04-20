@@ -1,0 +1,6 @@
+@KorvoniUmed.API_HostAddress = http://localhost:5248
+
+GET {{KorvoniUmed.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

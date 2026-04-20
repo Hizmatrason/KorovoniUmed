@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "news": "News",
+    "map": "Help Map",
+    "donate": "Donate",
+    "contact": "Contact",
+    "chatr": "Café Chatr",
+    "admin": "Admin Panel"
+  },
+  "hero": {
+    "title": "Korvoni Umed",
+    "subtitle": "Championing Women's Rights, Combating Gender-Based Violence and Human Trafficking in Tajikistan since 2009",
+    "cta": "Need help? Leave a request",
+    "ctaButton": "Leave a request"
+  },
+  "activities": {
+    "title": "Our Activities",
+    "shelter": {
+      "title": "Crisis Center & Rehabilitation",
+      "description": "We provide immediate support and shelter to women in crisis. Our comprehensive rehabilitation includes legal aid, medical assistance, and psychological counseling to help victims heal and rebuild their lives."
+    },
+    "training": {
+      "title": "Education & Economic Empowerment",
+      "description": "Our educational initiatives include courses and vocational training — sewing, cooking, confectionery and jewelry making — empowering vulnerable women with skills for economic independence and self-sufficiency."
+    },
+    "cafe": {
+      "title": "Social Cafe Chatr",
+      "description": "A unique social enterprise where former beneficiaries work and gain professional experience. All profits go toward maintaining the shelter and supporting our programs."
+    },
+    "awareness": {
+      "title": "Community Awareness & Advocacy",
+      "description": "We organize events, information campaigns and community outreach to educate about the prevention of domestic violence, human trafficking and the importance of women's rights."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Since 2009, Caravan of Hope (Korvoni Umed), a remarkable woman-led organization in Tajikistan, has been at the forefront of advocating for women's rights and fighting against gender-based violence and human trafficking. With unwavering dedication, we have implemented numerous impactful projects that have significantly improved the lives of women and girls across the country.",
+    "partners": "Our success would not be possible without the generous support of the European Union, U.S. Embassy in Dushanbe, Department of State Bureau of International Narcotics & Law Enforcement Affairs (INL), Embassy of the Netherlands in Central Asia, Danish Relief and Development, and Atlas Free.",
+    "founder": "Founded by Umeda Sadriddinova.",
+    "mission": "Our Mission",
+    "missionText": "Our mission is to end violence against women and girls. We have developed a robust framework for supporting victims of domestic violence and human trafficking, providing comprehensive rehabilitation services encompassing legal, medical, and psychological support — ensuring that victims receive the holistic care they need to heal and rebuild their lives.",
+    "history": "Our History",
+    "historyText": "The organization was founded in 2009 by Umeda Sadriddinova in Dushanbe. Over the years, we have helped hundreds of women and their children find safety, gain new skills, and start a new life. Our comprehensive strategy includes crisis center operations, economic sustainability programs, and capacity-building activities.",
+    "whatWeDo": "What We Do",
+    "shelterDesc": "Comprehensive rehabilitation — legal aid, medical assistance, and psychological counseling for women victims of domestic violence and human trafficking.",
+    "trainingDesc": "Educational and capacity-building initiatives empowering vulnerable women with skills for economic independence.",
+    "cafeDesc": "Social cafe Chatr — a social enterprise where former beneficiaries work, with profits funding the shelter.",
+    "awarenessDesc": "Community awareness campaigns and collaborative efforts with local leaders and government bodies to promote gender equality.",
+    "joinTitle": "Join the Caravan of Hope",
+    "joinText": "Support Caravan of Hope to help create a future where every woman and girl can live free from violence and discrimination. Together, we can make a tangible difference.",
+    "donorsTitle": "Our Partners & Donors"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "A comprehensive approach to ending gender-based violence and combating human trafficking",
+    "rehabilitation": {
+      "title": "Comprehensive Rehabilitation Services",
+      "description": "Offering legal aid, medical assistance, and psychological counseling to women victims of domestic violence and human trafficking. We provide immediate support, safe shelter, and holistic care."
+    },
+    "education": {
+      "title": "Education & Capacity Building",
+      "description": "Conducting courses and training to empower vulnerable women with the skills and knowledge needed for economic independence and self-sufficiency. Vocational programs include sewing, cooking, confectionery, and jewelry making."
+    },
+    "awareness": {
+      "title": "Community Awareness Campaigns",
+      "description": "Organizing events and information drives to educate community members about the prevention of domestic violence, human trafficking and the importance of women's rights."
+    },
+    "collaboration": {
+      "title": "Collaboration with Government",
+      "description": "Working closely with local leaders, civil servants, and men to promote gender equality and ensure equal opportunities for women in society."
+    },
+    "crisis": {
+      "title": "Crisis Center Operations",
+      "description": "Providing immediate support and safe shelter to women in crisis — a safe space where women and their children can begin their journey to recovery."
+    },
+    "economic": {
+      "title": "Economic Sustainability Programs",
+      "description": "Helping women achieve financial independence through vocational training, job placement services, and our social enterprise cafe Chatr."
+    }
+  },
+  "request": {
+    "title": "Leave a Request",
+    "name": "Your Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "message": "Message",
+    "submit": "Submit Request",
+    "success": "Your request has been submitted. We will contact you shortly.",
+    "error": "Error submitting. Please try again later."
+  },
+  "news": {
+    "title": "News",
+    "readMore": "Read More",
+    "noNews": "No news yet.",
+    "backToNews": "All News"
+  },
+  "chatr": {
+    "title": "Café Chatr",
+    "subtitle": "A social café empowering women to reclaim their independence and build a brighter future",
+    "mission": {
+      "title": "The Mission Behind the Brew",
+      "text": "Café Chatr is a unique social enterprise nestled in the heart of Dushanbe. It is a haven for women who have been impacted by gender-based violence and human trafficking. Through the support of the Korvoni Umed organization, these women receive essential training and employment opportunities, empowering them to reclaim their lives and build a sustainable future."
+    },
+    "empowerment": {
+      "title": "Empowerment Through Employment",
+      "text": "The employment model at Café Chatr provides women with more than just a job. It offers a lifeline, a chance to gain financial independence, and a supportive community where they can rebuild their self-esteem and confidence."
+    },
+    "learning": {
+      "title": "A Learning Environment",
+      "text": "Café Chatr is a learning environment where women develop new skills — from culinary arts and customer service to management and financial literacy — equipping them with the tools they need to succeed both professionally and personally."
+    },
+    "connections": {
+      "title": "Building Connections",
+      "text": "The café serves as a space where women connect with customers and the broader community. These interactions help them improve their social skills and foster a sense of belonging and support."
+    },
+    "sustainability": {
+      "title": "Creating Sustainable Futures",
+      "text": "Through their work at Café Chatr, women earn a sustainable income that helps them achieve financial stability and independence. Every cup of coffee served represents the possibility of a new beginning."
+    },
+    "cta": {
+      "title": "Join the Movement",
+      "text": "When you visit Café Chatr, you're not just enjoying a delicious meal or a perfect cup of coffee — you're participating in a movement that empowers women and transforms lives. Follow us on social media."
+    }
+  },
+  "map": {
+    "title": "Help Services Map",
+    "description": "Find the nearest help services in Dushanbe."
+  },
+  "donate": {
+    "title": "Support the Organization",
+    "description": "Your contribution helps us continue supporting women and children. Together, we can create a world where every woman and girl can live free from violence and discrimination.",
+    "placeholder": "The donations section is under development."
+  },
+  "footer": {
+    "address": "Dushanbe, Tajikistan",
+    "phone": "+992 900 00 12 22",
+    "social": "Follow Us",
+    "partners": "Partners",
+    "rights": "All rights reserved."
+  },
+  "chat": {
+    "title": "Online Chat",
+    "placeholder": "Type a message...",
+    "send": "Send",
+    "greeting": "Hello! How can we help you?",
+    "namePrompt": "Please introduce yourself:",
+    "start": "Start Chat",
+    "startAnonymous": "Enter anonymously",
+    "anonymous": "Anonymous"
+  },
+  "common": {
+    "loading": "Loading...",
+    "needHelp": "Need help?"
+  }
+}

@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  /* Палитра на основе primary #FF924D */
+  --color-primary: #FF924D;
+  --color-primary-dark: #E07A38;
+  --color-secondary: #8B3A2A;
+  --color-accent: #FFBB8A;
+  --color-cta: #A03E2A;
+  --color-bg: #FFF8F3;
+  --color-bg-white: #FFFFFF;
+  --color-text: #3D2B1F;
+  --color-text-light: #9A8578;
+  --color-border: #F0E4D9;
+
+  --background: var(--color-bg);
+  --foreground: var(--color-text);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(255, 146, 77, 0.25);
+}
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+  box-shadow: 0 2px 8px rgba(255, 146, 77, 0.35);
+}
+
+.btn-cta {
+  background-color: var(--color-cta);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(160, 62, 42, 0.2);
+}
+.btn-cta:hover {
+  background-color: #873425;
+  box-shadow: 0 2px 8px rgba(160, 62, 42, 0.3);
+}
+
+.card {
+  background-color: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
