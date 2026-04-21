@@ -4,9 +4,12 @@ import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
 const slides = [
-  { src: "/images/hero-1.jpg", alt: "Korvoni Umed" },
-  { src: "/images/hero-2.jpg", alt: "Training program" },
+  { src: "/images/hero-4.jpg", alt: "Community support" },
   { src: "/images/hero-3.jpg", alt: "Community support" },
+  { src: "/images/hero-2.jpg", alt: "Training program" },
+  { src: "/images/hero-5.jpg", alt: "Community support" },
+  { src: "/images/hero-1.jpg", alt: "Korvoni Umed" },
+  { src: "/images/hero-6.jpg", alt: "Community support" },
 ];
 
 export default function HeroCarousel() {

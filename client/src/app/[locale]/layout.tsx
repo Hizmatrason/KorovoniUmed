@@ -1,9 +1,12 @@
+import Script from "next/script";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
 import StickyHelpButton from "@/components/StickyHelpButton";
+
+const GA_MEASUREMENT_ID = "G-TTLZFHKWTC";
 
 export function generateStaticParams() {
   return [{ locale: "ru" }, { locale: "tj" }, { locale: "en" }];
@@ -36,6 +39,18 @@ export default async function LocaleLayout({
           <ChatWidget />
           <StickyHelpButton />
         </NextIntlClientProvider>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </body>
     </html>
   );

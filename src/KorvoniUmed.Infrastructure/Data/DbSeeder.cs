@@ -23,7 +23,7 @@ public static class DbSeeder
                 await roleManager.CreateAsync(new IdentityRole(role));
         }
 
-        const string adminEmail = "admin@korvoniumed.tj";
+        const string adminEmail = "admin@caravanofhope.tj";
         if (await userManager.FindByEmailAsync(adminEmail) == null)
         {
             var admin = new AppUser

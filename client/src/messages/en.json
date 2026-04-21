@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "projects": "Projects",
     "news": "News",
     "map": "Help Map",
     "donate": "Donate",
@@ -38,7 +39,7 @@
   "about": {
     "title": "About Us",
     "description": "Since 2009, Caravan of Hope (Korvoni Umed), a remarkable woman-led organization in Tajikistan, has been at the forefront of advocating for women's rights and fighting against gender-based violence and human trafficking. With unwavering dedication, we have implemented numerous impactful projects that have significantly improved the lives of women and girls across the country.",
-    "partners": "Our success would not be possible without the generous support of the European Union, U.S. Embassy in Dushanbe, Department of State Bureau of International Narcotics & Law Enforcement Affairs (INL), Embassy of the Netherlands in Central Asia, Danish Relief and Development, and Atlas Free.",
+    "partners": "Our success would not be possible without the generous support of the European Union, U.S. Embassy in Dushanbe, Department of State Bureau of International Narcotics & Law Enforcement Affairs (INL), Embassy of the Netherlands in Central Asia, Danish Relief and Development, the United Nations (UN), UNFPA, UNICEF, and UN Women.",
     "founder": "Founded by Umeda Sadriddinova.",
     "mission": "Our Mission",
     "missionText": "Our mission is to end violence against women and girls. We have developed a robust framework for supporting victims of domestic violence and human trafficking, providing comprehensive rehabilitation services encompassing legal, medical, and psychological support — ensuring that victims receive the holistic care they need to heal and rebuild their lives.",
@@ -96,6 +97,14 @@
     "readMore": "Read More",
     "noNews": "No news yet.",
     "backToNews": "All News"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Life-changing initiatives for women and children in Tajikistan — from crisis centers to economic empowerment and community awareness.",
+    "readMore": "Learn more",
+    "backToProjects": "All Projects",
+    "donor": "Donor",
+    "location": "Location"
   },
   "chatr": {
     "title": "Café Chatr",

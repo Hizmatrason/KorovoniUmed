@@ -12,7 +12,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-3">Korvoni Umed</h3>
             <p className="text-sm text-white/80">{t("address")}</p>
             <p className="text-sm text-white/80 mt-1">{t("phone")}</p>
-            <p className="text-sm text-white/80 mt-1">info@korvoniumed.tj</p>
+            <p className="text-sm text-white/80 mt-1">support@caravanofhope.tj</p>
           </div>
 
           {/* Social Media */}
@@ -54,6 +54,14 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-3">{t("partners")}</h3>
             <div className="flex flex-col gap-2">
               <a
+                href="https://www.un.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-white/80 hover:text-white transition-colors"
+              >
+                UN
+              </a>
+              <a
                 href="https://www.unfpa.org/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,12 +70,12 @@ export default function Footer() {
                 UNFPA
               </a>
               <a
-                href="https://www.spotlightinitiative.org/"
+                href="https://www.unicef.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white/80 hover:text-white transition-colors"
               >
-                EU-UN Spotlight Initiative
+                UNICEF
               </a>
               <a
                 href="https://www.unwomen.org/"
@@ -76,6 +84,14 @@ export default function Footer() {
                 className="text-sm text-white/80 hover:text-white transition-colors"
               >
                 UN Women
+              </a>
+              <a
+                href="https://www.spotlightinitiative.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-white/80 hover:text-white transition-colors"
+              >
+                EU-UN Spotlight Initiative
               </a>
             </div>
           </div>

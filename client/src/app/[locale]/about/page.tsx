@@ -23,7 +23,7 @@ function AboutContent() {
         </div>
         <div className="relative h-64 md:h-auto rounded-xl overflow-hidden">
           <Image
-            src="/images/about/hero.jpg"
+            src="/images/hero-5.jpg"
             alt="Korvoni Umed"
             fill
             className="object-cover"
@@ -48,7 +48,7 @@ function AboutContent() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div className="card overflow-hidden p-0">
           <div className="relative h-48">
-            <Image src="/images/about/shelter.jpg" alt="Shelter" fill className="object-cover" />
+            <Image src="/images/hero-6.jpg" alt="Shelter" fill className="object-cover" />
           </div>
           <div className="p-5">
             <h3 className="font-bold mb-2">{t("shelterDesc").split(",")[0]}</h3>
@@ -57,7 +57,7 @@ function AboutContent() {
         </div>
         <div className="card overflow-hidden p-0">
           <div className="relative h-48">
-            <Image src="/images/about/training.jpg" alt="Training" fill className="object-cover" />
+            <Image src="/images/hero-4.jpg" alt="Training" fill className="object-cover" />
           </div>
           <div className="p-5">
             <h3 className="font-bold mb-2">{t("trainingDesc").split(",")[0]}</h3>
@@ -80,7 +80,9 @@ function AboutContent() {
         <h2 className="text-xl font-bold mb-3 text-[var(--color-primary)]">Partners</h2>
         <p className="text-[var(--color-text-light)] mb-4">{t("partners")}</p>
         <div className="flex flex-wrap gap-6 items-center">
+          <a href="https://www.un.org/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors">UN</a>
           <a href="https://www.unfpa.org/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors">UNFPA</a>
+          <a href="https://www.unicef.org/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors">UNICEF</a>
           <a href="https://www.unwomen.org/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors">UN Women</a>
           <a href="https://www.spotlightinitiative.org/" target="_blank" rel="noopener noreferrer" className="text-lg font-bold text-[var(--color-text-light)] hover:text-[var(--color-primary)] transition-colors">Spotlight Initiative</a>
         </div>
