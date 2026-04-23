@@ -103,6 +103,32 @@ function ChatrContent() {
           <div className="card bg-gradient-to-br from-[var(--color-bg)] to-white border-[var(--color-primary)]/20">
             <h2 className="text-2xl font-bold text-[var(--color-secondary)] mb-4">{t("cta.title")}</h2>
             <p className="text-[var(--color-text-light)] leading-relaxed mb-6">{t("cta.text")}</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+              <a
+                href="tel:+992900900067"
+                className="flex items-center justify-center gap-3 rounded-lg border border-[var(--color-primary)]/20 bg-white px-4 py-3 hover:border-[var(--color-primary)] hover:shadow-sm transition-all"
+              >
+                <svg className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <div className="text-left">
+                  <div className="text-xs text-[var(--color-text-light)]">{t("phones.cafe")}</div>
+                  <div className="font-semibold text-[var(--color-secondary)]">+992 900 90 00 67</div>
+                </div>
+              </a>
+              <a
+                href="tel:+992888876999"
+                className="flex items-center justify-center gap-3 rounded-lg border border-[var(--color-primary)]/20 bg-white px-4 py-3 hover:border-[var(--color-primary)] hover:shadow-sm transition-all"
+              >
+                <svg className="w-5 h-5 text-[var(--color-primary)] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <div className="text-left">
+                  <div className="text-xs text-[var(--color-text-light)]">{t("phones.catering")}</div>
+                  <div className="font-semibold text-[var(--color-secondary)]">+992 888 87 69 99</div>
+                </div>
+              </a>
+            </div>
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="https://www.instagram.com/chatr_cafe/"

@@ -47,7 +47,7 @@ export const projects: Project[] = [
       tj: "Барномаи дусолаи доираи ташаббуси Волоияти Қонун: маркази бӯҳронӣ, 385 иштирокчӣ, 361 зан омӯзиши касбӣ гирифтанд, 104 нафар дипломи давлатӣ гирифтанд.",
       en: "A two-year Rule of Law program: crisis center, 385 women enrolled, 361 trained in vocational skills, and 104 receiving state-recognized diplomas.",
     },
-    coverImage: "/images/about/training.jpg",
+    coverImage: "/images/hero-4.jpg",
     donor: {
       ru: "Посольство США в Таджикистане, Бюро по международной борьбе с наркотиками и правоприменению (INL)",
       tj: "Сафорати ИМА дар Тоҷикистон, Бюрои байналмилалии мубориза бо маводи мухаддир ва татбиқи қонун (INL)",
@@ -64,9 +64,9 @@ export const projects: Project[] = [
       en: "Rudaki District, Tajikistan",
     },
     status: {
-      ru: "Завершён",
-      tj: "Анҷомёфта",
-      en: "Completed",
+      ru: "Действующий",
+      tj: "Ҷорӣ",
+      en: "Ongoing",
     },
     intro: {
       ru: "С большой радостью объявляем об успешной реализации нашего двухлетнего проекта «Защита и расширение возможностей женщин в группе риска в районе Рудаки» в рамках программы «Верховенство права». «Караван надежды» (Корвони Умед) при поддержке Посольства США в Таджикистане и его секции по международной борьбе с наркотиками и правоприменению (INL) успешно реализовал этот проект.",
@@ -188,7 +188,7 @@ export const projects: Project[] = [
       tj: "Ташаббуси чорсола (2021–2025) барои мубориза бо зӯроварии гендерӣ ва савдои занон тавассути маркази бӯҳронӣ, тавонмандсозии иқтисодӣ ва кор бо ҷамъият.",
       en: "A four-year initiative (2021–2025) addressing gender-based violence and women trafficking through a crisis center, economic empowerment, and community outreach.",
     },
-    coverImage: "/images/about/shelter.jpg",
+    coverImage: "/images/hero-5.jpg",
     donor: {
       ru: "Посольство Нидерландов в Центральной Азии (с резиденцией в Казахстане)",
       tj: "Сафорати Ҳоланд дар Осиёи Марказӣ (бо резиденсияи Қазоқистон)",

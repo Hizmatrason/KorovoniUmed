@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import * as signalR from "@microsoft/signalr";
 import { api, type ChatSession, type ChatMessage } from "@/lib/api";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5248";
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "";
 const sourceLabels: Record<number, string> = { 0: "Сайт", 1: "Telegram" };
 
 export default function AdminChatPage() {

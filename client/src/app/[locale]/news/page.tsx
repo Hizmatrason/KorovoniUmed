@@ -6,7 +6,7 @@ import { Link } from "@/i18n/routing";
 import { api, type NewsListItem, type PagedResult } from "@/lib/api";
 
 function imgSrc(url: string) {
-  return url.startsWith("http") ? url : `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5248"}${url}`;
+  return url.startsWith("http") ? url : `${process.env.NEXT_PUBLIC_API_URL ?? ""}${url}`;
 }
 
 export default function NewsPage() {

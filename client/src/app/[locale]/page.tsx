@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
+import BankDetails from "@/components/BankDetails";
 import HelpRequestForm from "@/components/HelpRequestForm";
 import HeroCarousel from "@/components/HeroCarousel";
 import LatestNews from "@/components/LatestNews";
@@ -22,9 +23,30 @@ function HomeContent() {
 
       {/* About Short */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
-        <p className="text-lg text-center max-w-3xl mx-auto text-[var(--color-text-light)]">
-          {t("about.description")}
-        </p>
+        <div className="max-w-3xl mx-auto text-center mb-10">
+          <h2 className="text-3xl font-bold text-[var(--color-primary)] mb-4">{t("about.title")}</h2>
+          <p className="text-lg text-[var(--color-text-light)]">
+            {t("about.description")}
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="card">
+            <h3 className="text-xl font-bold mb-3 text-[var(--color-primary)]">{t("about.mission")}</h3>
+            <p className="text-[var(--color-text-light)]">{t("about.missionText")}</p>
+          </div>
+          <div className="card">
+            <h3 className="text-xl font-bold mb-3 text-[var(--color-primary)]">{t("about.history")}</h3>
+            <p className="text-[var(--color-text-light)]">{t("about.historyText")}</p>
+          </div>
+        </div>
+        <div className="text-center mt-10">
+          <Link href="/about" className="btn-primary inline-flex items-center gap-2">
+            {t("about.title")}
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+        </div>
       </section>
 
       {/* Activities */}
@@ -79,6 +101,20 @@ function HomeContent() {
         </div>
       </section>
 
+      {/* Projects */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-[var(--color-primary)] mb-4">{t("projects.title")}</h2>
+          <p className="text-lg text-[var(--color-text-light)] mb-8">{t("projects.subtitle")}</p>
+          <Link href="/projects" className="btn-primary inline-flex items-center gap-2">
+            {t("projects.title")}
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* Latest News */}
       <LatestNews />
 
@@ -98,8 +134,28 @@ function HomeContent() {
         </div>
       </section>
 
+      {/* Donate / Bank Details */}
+      <section id="donate" className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="max-w-3xl mx-auto text-center mb-10">
+            <h2 className="text-3xl font-bold text-[var(--color-primary)] mb-4">{t("donate.title")}</h2>
+            <p className="text-lg text-[var(--color-text-light)] mb-2">{t("donate.description")}</p>
+            <p className="text-[var(--color-text-light)]">{t("donate.bank.subtitle")}</p>
+          </div>
+          <BankDetails />
+          <div className="text-center mt-10">
+            <Link href="/donate" className="btn-primary inline-flex items-center gap-2">
+              {t("donate.title")}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Request Form */}
-      <section id="request-form" className="bg-white py-16">
+      <section id="request-form" className="py-16">
         <div className="max-w-xl mx-auto px-4 sm:px-6">
           <HelpRequestForm />
         </div>

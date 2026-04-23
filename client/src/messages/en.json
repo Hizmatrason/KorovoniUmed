@@ -132,6 +132,10 @@
     "cta": {
       "title": "Join the Movement",
       "text": "When you visit Café Chatr, you're not just enjoying a delicious meal or a perfect cup of coffee — you're participating in a movement that empowers women and transforms lives. Follow us on social media."
+    },
+    "phones": {
+      "cafe": "Café",
+      "catering": "Catering"
     }
   },
   "map": {
@@ -141,7 +145,18 @@
   "donate": {
     "title": "Support the Organization",
     "description": "Your contribution helps us continue supporting women and children. Together, we can create a world where every woman and girl can live free from violence and discrimination.",
-    "placeholder": "The donations section is under development."
+    "placeholder": "The donations section is under development.",
+    "bank": {
+      "title": "Bank Details",
+      "subtitle": "Transfer funds directly to the organization's account",
+      "correspondentBank": "Correspondent Bank",
+      "correspondentAccount": "Correspondent Account",
+      "beneficiaryBank": "Beneficiary Bank",
+      "beneficiaryBankSwift": "Beneficiary Bank SWIFT",
+      "beneficiaryName": "Beneficiary",
+      "accountNumber": "Account Number",
+      "settlementAccount": "Settlement Account"
+    }
   },
   "footer": {
     "address": "Dushanbe, Tajikistan",

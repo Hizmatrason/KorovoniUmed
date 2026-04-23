@@ -5,7 +5,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import * as signalR from "@microsoft/signalr";
 import { api } from "@/lib/api";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5248";
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 interface Message {
   id?: number;

@@ -305,7 +305,7 @@ export default function EditNewsPage() {
               {form.imageUrl ? (
                 <div className="space-y-3">
                   <img
-                    src={form.imageUrl.startsWith("http") ? form.imageUrl : `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:5248"}${form.imageUrl}`}
+                    src={form.imageUrl.startsWith("http") ? form.imageUrl : `${process.env.NEXT_PUBLIC_API_URL ?? ""}${form.imageUrl}`}
                     alt="Preview"
                     className="w-full h-40 object-cover rounded-lg border border-gray-200"
                   />
