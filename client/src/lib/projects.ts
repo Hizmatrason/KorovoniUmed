@@ -330,6 +330,157 @@ export const projects: Project[] = [
       en: "This project is a testament to our unwavering commitment to creating a safer, more equitable society for women. Together with our partners and supporters, we strive for a world where every woman can live free from violence and exploitation, empowered to build a brighter future for herself and her community. Join us in this transformative journey and be a part of the change!",
     },
   },
+  {
+    slug: "eu-training-centers-2024",
+    title: {
+      ru: "Образование и поддержка: Наш вклад в будущее Таджикистана",
+      tj: "Таълим ва дастгирӣ: Саҳми мо дар оянда Тоҷикистон",
+      en: "Education and Support: Our Contribution to Tajikistan's Future",
+    },
+    shortTitle: {
+      ru: "Учебные центры при поддержке ЕС",
+      tj: "Марказҳои таълимӣ бо дастгирии ИА",
+      en: "EU-Funded Training Centers",
+    },
+    summary: {
+      ru: "При поддержке Европейского Союза открыты учебные центры в Душанбе, Варзобе и Кулябе. 725 студентов проходят бесплатное обучение кулинарному мастерству и швейному делу, а также получают бесплатные консультации психолога и юриста.",
+      tj: "Бо дастгирии Иттиҳоди Аврупо марказҳои таълимӣ дар Душанбе, Варзоб ва Қӯлоб кушода шуданд. 725 донишҷӯ ройгон ошпазӣ ва дӯзандагӣ меомӯзанд ва инчунин машварати ройгони равоншинос ва ҳуқуқшинос мегиранд.",
+      en: "With support from the European Union, training centers have opened in Dushanbe, Varzob and Kulob. 725 students receive free training in culinary arts and sewing, plus free psychological and legal consultations.",
+    },
+    coverImage: "/images/hero-4.jpg",
+    donor: {
+      ru: "Европейский Союз",
+      tj: "Иттиҳоди Аврупо",
+      en: "European Union",
+    },
+    period: {
+      ru: "2024 — настоящее время",
+      tj: "2024 — то имрӯз",
+      en: "2024 — present",
+    },
+    location: {
+      ru: "Душанбе, Варзоб, Куляб, Таджикистан",
+      tj: "Душанбе, Варзоб, Қӯлоб, Тоҷикистон",
+      en: "Dushanbe, Varzob, Kulob, Tajikistan",
+    },
+    status: {
+      ru: "Действующий",
+      tj: "Ҷорӣ",
+      en: "Ongoing",
+    },
+    intro: {
+      ru: "Благодаря финансовой поддержке Европейского Союза организация «Корвони Умед» открыла учебные центры в Душанбе, Варзобе и Кулябе. Эти центры предоставляют бесплатное профессиональное образование уязвимым женщинам, помогая им обрести экономическую независимость и уверенность в себе.",
+      tj: "Бо пуштибонии молиявии Иттиҳоди Аврупо, созмони «Корвони Умед» марказҳои таълимиро дар Душанбе, Варзоб ва Қӯлоб кушод. Ин марказҳо ба занони осебпазир таҳсилоти касбии ройгон медиҳанд, ки ба онҳо дар ба даст овардани мустақилияти иқтисодӣ ва боварии ба худ кумак мекунад.",
+      en: "With the financial support of the European Union, Korvoni Umed has opened training centers in Dushanbe, Varzob, and Kulob. These centers provide free vocational education to vulnerable women, helping them achieve economic independence and self-confidence.",
+    },
+    sections: [
+      {
+        id: "training-programs",
+        title: {
+          ru: "Учебные программы",
+          tj: "Барномаҳои таълимӣ",
+          en: "Training Programs",
+        },
+        bullets: [
+          {
+            icon: "🍳",
+            title: {
+              ru: "Кулинарное мастерство — 278 студентов",
+              tj: "Санъати ошпазӣ — 278 донишҷӯ",
+              en: "Culinary Arts — 278 students",
+            },
+            text: {
+              ru: "Студенты осваивают кулинарное мастерство и кондитерское дело. Выпускницы получают практические навыки для работы в сфере общественного питания или открытия собственного бизнеса.",
+              tj: "Донишҷӯён санъати ошпазӣ ва қаннодиро меомӯзанд. Хатмкунандагон малакаҳои амалиро барои кор дар соҳаи хӯрокпазӣ ё кушодани тиҷорати шахсии худ мегиранд.",
+              en: "Students master culinary arts and confectionery. Graduates gain practical skills for work in the food service industry or launching their own business.",
+            },
+          },
+          {
+            icon: "🪡",
+            title: {
+              ru: "Швейное дело — 347 студентов",
+              tj: "Дӯзандагӣ — 347 донишҷӯ",
+              en: "Sewing & Tailoring — 347 students",
+            },
+            text: {
+              ru: "Студенты осваивают кройку и шитьё: от базовых техник до профессионального пошива одежды. Курс открывает возможности для трудоустройства и самозанятости.",
+              tj: "Донишҷӯён бурриш ва дӯзандагиро аз техникаҳои асосӣ то дӯзандагии касбии либос меомӯзанд. Курс имкониятҳои шуғл ва худшуғлиро мекушояд.",
+              en: "Students master cutting and sewing — from basic techniques to professional garment making. The course opens opportunities for employment and self-employment.",
+            },
+          },
+        ],
+      },
+      {
+        id: "free-support",
+        title: {
+          ru: "Бесплатная поддержка",
+          tj: "Дастгирии ройгон",
+          en: "Free Support",
+        },
+        paragraphs: [
+          {
+            ru: "Обучение в центрах полностью бесплатное. Каждый студент также имеет возможность бесплатно получить консультацию психолога или юриста. Этот комплексный подход обеспечивает не только профессиональные навыки, но и психологическую устойчивость и правовую защиту наших подопечных.",
+            tj: "Таҳсил дар марказҳо пурра ройгон аст. Ҳар як донишҷӯ инчунин имконияти ройгон гирифтани машварати равоншинос ё ҳуқуқшиносро дорад. Ин равиши ҷомеъ на танҳо малакаҳои касбӣ, балки устуворӣ ва ҳифзи ҳуқуқии зерипарасторони моро таъмин мекунад.",
+            en: "Training at the centers is completely free. Every student also has the opportunity to receive free consultations with a psychologist or lawyer. This comprehensive approach ensures not only professional skills but also psychological resilience and legal protection for our beneficiaries.",
+          },
+        ],
+      },
+      {
+        id: "centers-contacts",
+        title: {
+          ru: "Адреса и контакты",
+          tj: "Суроғаҳо ва тамосҳо",
+          en: "Addresses and Contacts",
+        },
+        bullets: [
+          {
+            icon: "📍",
+            title: {
+              ru: "Душанбе",
+              tj: "Душанбе",
+              en: "Dushanbe",
+            },
+            text: {
+              ru: "ул. Мирзо Турсунзода, 112. Тел: +992 93 101 14 69 / +992 93 101 14 62",
+              tj: "к. Мирзо Турсунзода, 112. Тел: +992 93 101 14 69 / +992 93 101 14 62",
+              en: "ul. Mirzo Tursunzoda, 112. Phone: +992 93 101 14 69 / +992 93 101 14 62",
+            },
+          },
+          {
+            icon: "📍",
+            title: {
+              ru: "Варзоб",
+              tj: "Варзоб",
+              en: "Varzob",
+            },
+            text: {
+              ru: "п. Варзоб, здание Универмага, 2-й этаж. Тел: +992 93 101 14 68 / +992 93 101 14 65",
+              tj: "п. Варзоб, бинои Универмаг, ошёнаи 2-юм. Тел: +992 93 101 14 68 / +992 93 101 14 65",
+              en: "Varzob settlement, Univermag building, 2nd floor. Phone: +992 93 101 14 68 / +992 93 101 14 65",
+            },
+          },
+          {
+            icon: "📍",
+            title: {
+              ru: "Куляб",
+              tj: "Қӯлоб",
+              en: "Kulob",
+            },
+            text: {
+              ru: "г. Куляб, Таджикистан",
+              tj: "ш. Қӯлоб, Тоҷикистон",
+              en: "Kulob city, Tajikistan",
+            },
+          },
+        ],
+      },
+    ],
+    closing: {
+      ru: "Всего 725 студентов получают бесплатное качественное образование при поддержке Европейского Союза. Мы продолжаем открывать новые возможности для женщин Таджикистана, давая им инструменты для достижения финансовой независимости и лучшей жизни.",
+      tj: "Дар маҷмӯъ 725 донишҷӯ бо дастгирии Иттиҳоди Аврупо таҳсилоти ройгон ва босифатро мегиранд. Мо имкониятҳои нав барои занони Тоҷикистонро мекушоем ва ба онҳо асбобҳо барои ба даст овардани мустақилияти молиявӣ ва зиндагии беҳтарро медиҳем.",
+      en: "A total of 725 students receive free, quality education with the support of the European Union. We continue to open new opportunities for women in Tajikistan, giving them the tools to achieve financial independence and a better life.",
+    },
+  },
 ];
 
 export function getProjectBySlug(slug: string): Project | undefined {

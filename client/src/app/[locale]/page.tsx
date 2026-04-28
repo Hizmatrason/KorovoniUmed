@@ -55,7 +55,7 @@ function HomeContent() {
           <h2 className="text-3xl font-bold text-center mb-12 text-[var(--color-primary)]">
             {t("activities.title")}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Shelter → Vahdat crisis-center project */}
             <Link
               href={"/projects/vahdat-protection" as any}
@@ -96,6 +96,20 @@ function HomeContent() {
               </div>
               <h3 className="text-lg font-bold mb-2 group-hover:text-[var(--color-accent)] transition-colors">{t("activities.cafe.title")}</h3>
               <p className="text-sm text-[var(--color-text-light)]">{t("activities.cafe.description")}</p>
+            </Link>
+
+            {/* EU Training Centers project */}
+            <Link
+              href={"/projects/eu-training-centers-2024" as any}
+              className="card text-center group hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+            >
+              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-[var(--color-primary)]/10 flex items-center justify-center group-hover:bg-[var(--color-primary)]/20 transition-colors">
+                <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold mb-2 group-hover:text-[var(--color-primary)] transition-colors">{t("activities.euTraining.title")}</h3>
+              <p className="text-sm text-[var(--color-text-light)]">{t("activities.euTraining.description")}</p>
             </Link>
           </div>
         </div>

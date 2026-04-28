@@ -34,6 +34,10 @@
     "awareness": {
       "title": "Community Awareness & Advocacy",
       "description": "We organize events, information campaigns and community outreach to educate about the prevention of domestic violence, human trafficking and the importance of women's rights."
+    },
+    "euTraining": {
+      "title": "EU-Funded Training Centers",
+      "description": "725 students receive free training in culinary arts and sewing at centers in Dushanbe, Varzob and Kulob, supported by the European Union."
     }
   },
   "about": {
@@ -50,6 +54,8 @@
     "trainingDesc": "Educational and capacity-building initiatives empowering vulnerable women with skills for economic independence.",
     "cafeDesc": "Social cafe Chatr — a social enterprise where former beneficiaries work, with profits funding the shelter.",
     "awarenessDesc": "Community awareness campaigns and collaborative efforts with local leaders and government bodies to promote gender equality.",
+    "euTrainingTitle": "EU-Funded Training Centers",
+    "euTrainingDesc": "With European Union support, 725 students receive free culinary arts and sewing training at centers in Dushanbe, Varzob and Kulob.",
     "joinTitle": "Join the Caravan of Hope",
     "joinText": "Support Caravan of Hope to help create a future where every woman and girl can live free from violence and discrimination. Together, we can make a tangible difference.",
     "donorsTitle": "Our Partners & Donors"

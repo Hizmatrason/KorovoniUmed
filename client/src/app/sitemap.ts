@@ -9,6 +9,7 @@ const ROUTES = [
   "/projects",
   "/projects/vahdat-protection",
   "/projects/rudaki-rule-of-law",
+  "/projects/eu-training-centers-2024",
   "/chatr",
   "/donate",
   "/news",
